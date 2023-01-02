@@ -33,8 +33,8 @@ function addWeatherToPage(data) {
   main.appendChild(weather);
 }
 
-function Ktoc(K) {
-  return Math.floor(K - 273.15);
+function Ktoc(w) {
+  return Math.floor(w - 273.15);
 }
 
 form.addEventListener('submit', e => {
